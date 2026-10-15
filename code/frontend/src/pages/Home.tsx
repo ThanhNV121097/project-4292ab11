@@ -34,7 +34,7 @@ export default function Home() {
             animate={reduced ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.2, 0.7, 0.2, 1] }}
           >
-            <T k="hero.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+            <T k="hero.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
             <T k="hero.headline" as="h1" className="mt-4 text-[length:var(--size-h1)] leading-[1.05] max-w-[16ch]" />
             <T k="hero.sub" as="p" className="mt-6 max-w-[42ch] text-lg text-ink-soft" />
             <div className="mt-9 flex flex-wrap items-center gap-4">
