@@ -6,10 +6,14 @@
   --surface: #FFFFFF;
   --ink: #17201A;
   --ink-soft: #5B6358;
-  --accent: #B8502E;
+  --accent: #A8431F;
   --accent-ink: #FFFFFF;
   --fairway: #1F3D2B;
   --fairway-ink: #F6F1E4;
+  /* The eyebrow/label colour: the fairway green in light mode, a brighter
+     green in dark mode so it keeps AA contrast on the near-black ground
+     (the dark --fairway is too close to --ground to read as body text). */
+  --label: #1F3D2B;
   --line: rgba(23, 32, 26, 0.12);
   color-scheme: light;
 
