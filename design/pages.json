@@ -1,0 +1,10 @@
+[
+  { "path": "/", "name": "Home" },
+  { "path": "/tee-time/:id", "name": "Tee time detail" },
+  { "path": "/checkout/:id", "name": "Pay" },
+  { "path": "/confirmation/:id", "name": "Booking confirmed" },
+  { "path": "/bookings", "name": "My bookings" },
+  { "path": "/sign-in", "name": "Sign in" },
+  { "path": "/sign-up", "name": "Sign up" },
+  { "path": "/contact", "name": "Contact" }
+]

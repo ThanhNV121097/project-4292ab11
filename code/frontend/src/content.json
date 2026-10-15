@@ -1,51 +1,144 @@
 {
   "site": {
-    "name": "Your business",
+    "name": "Green Lotus Golf Club",
     "logo": "",
-    "description": "One sentence on what the business is, for search results and shared links."
+    "description": "Book a tee time online at Green Lotus Golf Club, an 18-hole course on Highway 51 near Ho Chi Minh City."
   },
   "nav": {
     "links": [
-      {
-        "label": "Home",
-        "href": "/"
-      }
+      { "label": "Tee times", "href": "/" },
+      { "label": "My bookings", "href": "/bookings" },
+      { "label": "Contact", "href": "/contact" }
     ],
-    "cta": {
-      "label": "Get in touch",
-      "href": "#contact"
-    },
-    "theme": {
-      "toLight": "Switch to light mode",
-      "toDark": "Switch to dark mode"
-    },
-    "menu": {
-      "open": "Open menu",
-      "close": "Close menu"
-    }
+    "cta": { "label": "Sign in", "href": "/sign-in" },
+    "theme": { "toLight": "Switch to light mode", "toDark": "Switch to dark mode" },
+    "menu": { "open": "Open menu", "close": "Close menu" }
   },
   "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": {
-      "label": "Get in touch",
-      "href": "#contact"
+    "eyebrow": "18-hole course · Long Thành, Đồng Nai",
+    "headline": "Book your tee time at Green Lotus",
+    "sub": "Open times every 10 minutes from 5:30. Pick a time, 9 or 18 holes, up to 4 players, and pay online.",
+    "cta": { "label": "See today's tee times", "href": "#tee-times" }
+  },
+  "home": {
+    "title": "Green Lotus Golf Club — book a tee time",
+    "description": "Today's open tee times at Green Lotus Golf Club, every 10 minutes from 5:30, with the green fee for weekday and weekend.",
+    "course": {
+      "eyebrow": "The course",
+      "headline": "18 holes along the Đồng Nai lowlands",
+      "body": "A par-72 course an hour from Ho Chi Minh City, with wide fairways, water on the back nine, and a clubhouse open from 5:30 to 18:00 every day."
+    },
+    "teeTimes": {
+      "eyebrow": "Today",
+      "headline": "Open tee times",
+      "sub": "Every 10 minutes from 5:30. Green fee shown per player.",
+      "weekdayLabel": "Weekday",
+      "weekendLabel": "Weekend",
+      "holesLabel": "holes",
+      "bookCta": "Book",
+      "fullCta": "Full",
+      "showMore": "Show more times",
+      "empty": "No open tee times left for today."
+    },
+    "promise": {
+      "eyebrow": "Why golfers book direct",
+      "items": [
+        { "icon": "card", "title": "Pay online", "body": "Visa and Mastercard, confirmed the moment you pay." },
+        { "icon": "fast", "title": "Instant confirmation", "body": "Your tee time is held the moment payment clears." },
+        { "icon": "people", "title": "1 to 4 players", "body": "Book for yourself or your whole group in one booking." }
+      ]
     }
   },
-  "footer": {
-    "line": "Your business · District 1, Saigon"
+  "teeTime": {
+    "title": "Book this tee time",
+    "description": "Pick the date, the time, 9 or 18 holes and your players, then pay online by card.",
+    "eyebrow": "Tee time",
+    "dateLabel": "Date",
+    "timeLabel": "Time",
+    "holesLabel": "Holes",
+    "playersLabel": "Players",
+    "holes9": "9 holes",
+    "holes18": "18 holes",
+    "perPlayer": "per player",
+    "totalLabel": "Total",
+    "weekdayNote": "Weekday rate",
+    "weekendNote": "Weekend rate",
+    "cta": "Continue to payment",
+    "signInFirst": "Sign in to book this tee time",
+    "signInCta": "Sign in to continue",
+    "back": "Back to tee times"
+  },
+  "checkout": {
+    "title": "Pay for your tee time",
+    "description": "Pay online by Visa or Mastercard to confirm your tee time at Green Lotus Golf Club.",
+    "eyebrow": "Payment",
+    "summaryTitle": "Your booking",
+    "cardLabel": "Card number",
+    "expiryLabel": "Expiry",
+    "cvcLabel": "CVC",
+    "nameLabel": "Name on card",
+    "payCta": "Pay and confirm",
+    "paying": "Paying…",
+    "secureNote": "Payments are encrypted. Green Lotus never stores your card number.",
+    "methods": "Visa and Mastercard accepted"
+  },
+  "confirmation": {
+    "title": "Booking confirmed",
+    "description": "Your tee time at Green Lotus Golf Club is confirmed.",
+    "eyebrow": "Confirmed",
+    "headline": "Your tee time is booked",
+    "sub": "A confirmation has been saved to your bookings. See you on the first tee.",
+    "refLabel": "Booking reference",
+    "viewBookings": "See my bookings",
+    "bookAnother": "Book another tee time"
+  },
+  "bookings": {
+    "title": "My bookings",
+    "description": "Tee times you've booked at Green Lotus Golf Club.",
+    "eyebrow": "My bookings",
+    "headline": "Your tee times",
+    "empty": "No bookings yet.",
+    "emptyCta": "Book a tee time",
+    "statusConfirmed": "Confirmed",
+    "statusPast": "Played"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign in",
+      "description": "Sign in to Green Lotus Golf Club to book a tee time and see your bookings.",
+      "eyebrow": "Welcome back",
+      "headline": "Sign in",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "cta": "Sign in",
+      "switchPrompt": "New to Green Lotus?",
+      "switchCta": "Create an account"
+    },
+    "signUp": {
+      "title": "Sign up",
+      "description": "Create an account at Green Lotus Golf Club to book tee times online.",
+      "eyebrow": "New here",
+      "headline": "Create your account",
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "cta": "Create account",
+      "switchPrompt": "Already golfing with us?",
+      "switchCta": "Sign in"
+    }
   },
   "contact": {
-    "phone": "",
-    "zalo": "",
-    "email": "",
-    "address": "",
-    "hours": "",
-    "dock": {
-      "call": "Call us",
-      "zalo": "Message us on Zalo"
-    },
+    "title": "Contact",
+    "description": "Call, message on Zalo, or send a message to Green Lotus Golf Club.",
+    "eyebrow": "Get in touch",
+    "headline": "Talk to the pro shop",
+    "sub": "Questions about a tee time, a group booking or the course — call, message on Zalo, or write to us below.",
+    "phone": "028 3899 1188",
+    "zalo": "028 3899 1188",
+    "email": "teetime@greenlotusgolf.vn",
+    "address": "Km 12, Highway 51, Long Thành, Đồng Nai",
+    "hours": "5:30–18:00 daily",
+    "dock": { "call": "Call us", "zalo": "Message us on Zalo" },
     "form": {
       "name": "Your name",
       "reply_to": "Phone or email",
@@ -54,7 +147,13 @@
       "sending": "Sending…",
       "sent": "Thank you — we have your message and will answer soon.",
       "offline": "This form is not connected yet — call or message us instead.",
-      "fields": {}
+      "fields": {
+        "date": "Preferred date",
+        "players": "Number of players"
+      }
     }
+  },
+  "footer": {
+    "line": "An 18-hole course on Highway 51, Long Thành, Đồng Nai."
   }
 }

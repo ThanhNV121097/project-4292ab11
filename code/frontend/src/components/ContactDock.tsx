@@ -1,5 +1,6 @@
 import { useContent } from "../editable";
 import Icon from "./Icon";
+import SocialIcon from "./SocialIcon";
 
 /**
  * Call and Zalo, always within reach on a phone: two round buttons fixed to
@@ -28,8 +29,8 @@ export default function ContactDock() {
       className="pointer-events-none fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-4 z-50 flex flex-row gap-3 lg:hidden">
       {chat && (
         <a href={`https://zalo.me/${chat}`} target="_blank" rel="noreferrer" aria-label={zaloLabel}
-          className="pointer-events-auto flex h-14 w-14 items-center justify-center rounded-full bg-surface text-ink shadow-lg ring-1 ring-line text-sm font-semibold">
-          Zalo
+          className="pointer-events-auto flex h-14 w-14 items-center justify-center rounded-full bg-surface text-ink shadow-lg ring-1 ring-line">
+          <SocialIcon network="zalo" size={24} />
         </a>
       )}
       {tel && (

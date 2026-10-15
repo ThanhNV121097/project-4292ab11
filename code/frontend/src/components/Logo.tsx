@@ -15,7 +15,7 @@ export default function Logo({ className = "" }: { className?: string }) {
   }
   return (
     <span className={`inline-flex items-center gap-2 font-display text-lg tracking-tight text-ink ${className}`}>
-      <LogoMark className="h-7 w-7" />
+      <LogoMark className="h-7 w-7 shrink-0" />
       <span>{name}</span>
     </span>
   );
