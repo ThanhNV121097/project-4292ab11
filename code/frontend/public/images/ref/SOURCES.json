@@ -1,5 +1,11 @@
 [
   {
+    "path": "code/frontend/public/images/ref/course-bunker.jpg",
+    "image": "https://www.streamsongresort.com/content/uploads/2026/03/STR_Streamsong_Golfer_Red_Bunker.jpg",
+    "page": "https://www.streamsongresort.com/golf",
+    "saved_at": "2026-10-15T14:48:40Z"
+  },
+  {
     "path": "code/frontend/public/images/ref/course-fairway.jpg",
     "image": "https://www.streamsongresort.com/content/uploads/2026/02/STR-Streamong-golf-courses-blue-7th-Hole_DSC00020-scaled.jpg",
     "page": "https://www.streamsongresort.com/golf",
