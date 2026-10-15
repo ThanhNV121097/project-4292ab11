@@ -17,7 +17,7 @@ export default function Confirmation() {
         <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-fairway text-fairway-ink">
           <Icon name="done" size={32} />
         </div>
-        <T k="confirmation.eyebrow" as="p" className="mt-6 text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+        <T k="confirmation.eyebrow" as="p" className="mt-6 text-sm font-medium uppercase tracking-[0.08em] text-label" />
         <T k="confirmation.headline" as="h1" className="mt-3 text-[length:var(--size-h2)] leading-[1.05]" />
         <T k="confirmation.sub" as="p" className="mx-auto mt-4 max-w-[46ch] text-base text-ink-soft" />
 
