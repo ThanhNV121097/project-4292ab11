@@ -16,6 +16,7 @@ import MobileMenu from "./components/MobileMenu";
 import ThemeToggle from "./components/ThemeToggle";
 import ContactDock from "./components/ContactDock";
 import Icon from "./components/Icon";
+import SocialIcon from "./components/SocialIcon";
 
 /**
  * The shared ground every page mounts into: header, footer, the mobile menu
