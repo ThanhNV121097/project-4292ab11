@@ -58,7 +58,7 @@ export default function Home() {
       <Section className="border-t border-line bg-surface">
         <div className="mx-auto grid max-w-page gap-10 px-[var(--gutter)] py-16 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-16">
           <div className="order-2 aspect-[4/3] overflow-hidden rounded-lg lg:order-1">
-            <img src="/images/course-fairway.jpg" alt="Sunlit fairway with a bunker" className="h-full w-full object-cover" />
+            <img src="/images/ref/course-fairway.jpg" alt="Sunlit fairway with a bunker" className="h-full w-full object-cover" />
           </div>
           <div className="order-1 lg:order-2">
             <T k="home.course.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
