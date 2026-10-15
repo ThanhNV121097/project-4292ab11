@@ -55,7 +55,7 @@ export default function Checkout() {
     <Section>
       <div className="mx-auto max-w-page px-[var(--gutter)] py-14">
         <Link to={`/tee-time/${id}`} className="inline-flex items-center gap-2 text-sm text-ink-soft hover:text-ink"><Icon name="back" size={16} /><T k="teeTime.back" /></Link>
-        <T k="checkout.eyebrow" as="p" className="mt-6 text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+        <T k="checkout.eyebrow" as="p" className="mt-6 text-sm font-medium uppercase tracking-[0.08em] text-label" />
         <T k="checkout.title" as="h1" className="mt-3 text-[length:var(--size-h2)] leading-[1.05] max-w-[20ch]" />
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_380px] lg:gap-16">
