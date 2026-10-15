@@ -15,6 +15,7 @@ export default {
         "accent-ink": "var(--accent-ink)",
         fairway: "var(--fairway)",
         "fairway-ink": "var(--fairway-ink)",
+        label: "var(--label)",
         line: "var(--line)",
       },
       fontFamily: {
