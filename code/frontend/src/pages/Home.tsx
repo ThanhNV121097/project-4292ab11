@@ -127,11 +127,8 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section className="relative border-t border-line text-fairway-ink">
-        <div className="absolute inset-0">
-          <img src="/images/ref/course-bunker.jpg" alt="A player's shot from a bunker beside the green" className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-fairway/85" />
-        </div>
+      <Section className="relative border-t border-line bg-fairway text-fairway-ink">
+        <img src="/images/ref/course-bunker.jpg" alt="A player's shot from a bunker beside the green" className="absolute inset-0 h-full w-full object-cover opacity-25" />
         <div className="relative mx-auto max-w-page px-[var(--gutter)] py-16">
           <T k="home.promise.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway-ink" />
           <div className="mt-8 grid gap-10 sm:grid-cols-3">
