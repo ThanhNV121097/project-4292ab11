@@ -30,7 +30,7 @@ export default function Bookings() {
   return (
     <Section>
       <div className="mx-auto max-w-page px-[var(--gutter)] py-14">
-        <T k="bookings.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+        <T k="bookings.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
         <T k="bookings.headline" as="h1" className="mt-3 text-[length:var(--size-h2)] leading-[1.05]" />
 
         {bookings.length === 0 ? (
