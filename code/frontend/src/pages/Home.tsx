@@ -50,7 +50,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.1, ease: [0.2, 0.7, 0.2, 1] }}
             className="relative aspect-[4/3] w-full overflow-hidden rounded-lg lg:aspect-[5/4]"
           >
-            <img src="/images/hero.jpg" alt="Fairway and green at sunrise" className="h-full w-full object-cover" />
+            <img src="/images/ref/hero.jpg" alt="Fairway and green at sunrise" className="h-full w-full object-cover" />
           </motion.div>
         </div>
       </section>
