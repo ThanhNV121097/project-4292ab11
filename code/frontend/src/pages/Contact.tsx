@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <Section>
       <div className="mx-auto max-w-page px-[var(--gutter)] py-14">
-        <T k="contact.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+        <T k="contact.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
         <T k="contact.headline" as="h1" className="mt-3 text-[length:var(--size-h2)] leading-[1.05] max-w-[20ch]" />
         <T k="contact.sub" as="p" className="mt-4 max-w-[48ch] text-base text-ink-soft" />
 
