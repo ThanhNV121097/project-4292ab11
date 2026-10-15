@@ -1,5 +1,6 @@
 import { useContent } from "../editable";
 import Icon from "./Icon";
+import SocialIcon from "./SocialIcon";
 
 /**
  * Call and Zalo, always within reach on a phone: two round buttons fixed to
