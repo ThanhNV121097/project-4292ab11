@@ -24,8 +24,8 @@ export default function Contact() {
                 <a href="tel:02838991188" className="hover:text-accent"><T k="contact.phone" /></a>
               </li>
               <li className="flex items-center gap-3">
-                <Icon name="chat" size={18} />
-                <a href="https://zalo.me/02838991188" target="_blank" rel="noreferrer" className="hover:text-accent">Zalo: <T k="contact.zalo" /></a>
+                <SocialIcon network="zalo" size={18} />
+                <a href="https://zalo.me/02838991188" target="_blank" rel="noreferrer" className="hover:text-accent"><T k="contact.zalo" /></a>
               </li>
               <li className="flex items-center gap-3">
                 <Icon name="mail" size={18} />
