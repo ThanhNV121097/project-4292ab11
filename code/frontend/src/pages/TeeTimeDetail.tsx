@@ -56,7 +56,7 @@ export default function TeeTimeDetail() {
     <Section>
       <div data-record={`tee-times:${item.id}`} className="mx-auto max-w-page px-[var(--gutter)] py-14">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-ink-soft hover:text-ink"><Icon name="back" size={16} /><T k="teeTime.back" /></Link>
-        <T k="teeTime.eyebrow" as="p" className="mt-6 text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+        <T k="teeTime.eyebrow" as="p" className="mt-6 text-sm font-medium uppercase tracking-[0.08em] text-label" />
         <T k="teeTime.title" as="h1" className="mt-3 text-[length:var(--size-h2)] leading-[1.05] max-w-[20ch]" />
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_380px] lg:gap-16">
