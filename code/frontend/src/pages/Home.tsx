@@ -133,13 +133,13 @@ export default function Home() {
           <div className="absolute inset-0 bg-fairway/85" />
         </div>
         <div className="relative mx-auto max-w-page px-[var(--gutter)] py-16">
-          <T k="home.promise.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway-ink/70" />
+          <T k="home.promise.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway-ink" />
           <div className="mt-8 grid gap-10 sm:grid-cols-3">
             {(useContent<{ icon: string; title: string; body: string }[]>("home.promise.items")).map((item, i) => (
               <div key={i}>
                 <Icon name={item.icon as never} size={28} />
                 <h3 className="mt-4 text-xl font-medium">{item.title}</h3>
-                <p className="mt-2 text-sm text-fairway-ink/80">{item.body}</p>
+                <p className="mt-2 text-sm text-fairway-ink">{item.body}</p>
               </div>
             ))}
           </div>
