@@ -21,7 +21,7 @@ export default function SignUp() {
   return (
     <Section>
       <div className="mx-auto max-w-[420px] px-[var(--gutter)] py-20">
-        <T k="auth.signUp.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+        <T k="auth.signUp.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
         <T k="auth.signUp.headline" as="h1" className="mt-3 text-[length:var(--size-h2)] leading-[1.05]" />
 
         <form onSubmit={submit} className="mt-8 flex flex-col gap-5">
