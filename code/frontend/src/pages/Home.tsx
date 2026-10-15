@@ -75,7 +75,7 @@ export default function Home() {
         <div className="mx-auto max-w-page px-[var(--gutter)] py-16">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>
-              <T k="home.teeTimes.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+              <T k="home.teeTimes.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
               <T k="home.teeTimes.headline" as="h2" className="mt-3 text-[length:var(--size-h2)] leading-[1.05]" />
               <T k="home.teeTimes.sub" as="p" className="mt-3 max-w-[48ch] text-base text-ink-soft" />
             </div>
