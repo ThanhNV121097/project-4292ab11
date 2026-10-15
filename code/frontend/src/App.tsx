@@ -82,14 +82,17 @@ export default function App() {
         </Routes>
       </main>
       <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-page flex-col gap-6 px-[var(--gutter)] py-12 text-sm text-ink-soft sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-2">
+        <div className="mx-auto flex max-w-page flex-col gap-6 px-[var(--gutter)] py-12 text-sm text-ink-soft lg:flex-row lg:items-start lg:justify-between">
+          <div className="flex items-center gap-2 shrink-0">
             <Logo />
           </div>
-          <T k="footer.line" as="p" />
-          <div className="flex flex-wrap gap-5">
+          <T k="footer.line" as="p" className="max-w-[32ch]" />
+          <div className="flex flex-col flex-wrap gap-3 sm:flex-row sm:gap-5">
             <a href="tel:02838991188" className="flex items-center gap-2 hover:text-ink"><Icon name="phone" size={16} /> 028 3899 1188</a>
+            <a href="https://zalo.me/02838991188" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-ink"><SocialIcon network="zalo" size={16} /> 028 3899 1188</a>
             <a href="mailto:teetime@greenlotusgolf.vn" className="flex items-center gap-2 hover:text-ink"><Icon name="mail" size={16} /> teetime@greenlotusgolf.vn</a>
+            <span className="flex items-center gap-2"><Icon name="address" size={16} /> Km 12, Highway 51, Long Thành, Đồng Nai</span>
+            <span className="flex items-center gap-2"><Icon name="hours" size={16} /> 5:30–18:00 daily</span>
           </div>
         </div>
       </footer>
