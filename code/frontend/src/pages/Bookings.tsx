@@ -43,16 +43,15 @@ export default function Bookings() {
         ) : (
           <div className="mt-8 overflow-hidden rounded-lg border border-line">
             {bookings.map((b) => (
-              <div key={b.id} className="grid grid-cols-[1fr_auto_auto] items-center gap-4 border-b border-line px-5 py-4 last:border-b-0 sm:grid-cols-[1fr_1fr_auto_auto]">
+              <div key={b.id} className="grid grid-cols-[1fr_auto_auto] items-center gap-4 border-b border-line px-5 py-4 last:border-b-0">
                 <div>
                   <p className="font-medium">{b.date} · {b.time}</p>
                   <p className="text-sm text-ink-soft">{b.holes} holes · {b.players} player{b.players > 1 ? "s" : ""}</p>
                 </div>
-                <span className="hidden text-right tabular-nums text-ink-soft sm:inline">{formatVND(b.total)}</span>
                 <span className="justify-self-end rounded-full border border-line px-3 py-1 text-xs text-ink-soft">
                   {b.date < today ? <T k="bookings.statusPast" /> : <T k="bookings.statusConfirmed" />}
                 </span>
-                <span className="hidden justify-self-end font-medium tabular-nums sm:inline">{formatVND(b.total)}</span>
+                <span className="justify-self-end font-medium tabular-nums">{formatVND(b.total)}</span>
               </div>
             ))}
           </div>
