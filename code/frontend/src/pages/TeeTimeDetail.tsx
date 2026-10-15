@@ -128,7 +128,7 @@ export default function TeeTimeDetail() {
   );
 }
 
-function Field({ label, icon, children }: { label: string; icon: Parameters<typeof Icon>[0]["name"]; children: React.ReactNode }) {
+function Field({ label, icon, children }: { label: string; icon: Parameters<typeof Icon>[0]["name"]; children: ReactNode }) {
   return (
     <div>
       <div className="flex items-center gap-2 text-sm font-medium text-ink-soft">
