@@ -1,0 +1,81 @@
+/* The design's tokens. Every colour, face and shape on the site is one of
+   these, so the owner changes the whole site by changing a value here — in
+   the Studio, without a rebuild. Components never carry a raw colour. */
+:root {
+  --ground: #F6F2EA;
+  --surface: #FFFFFF;
+  --ink: #1B1917;
+  --ink-soft: #5E5954;
+  --accent: #B8412E;
+  --accent-ink: #FFFFFF;
+  --line: rgba(27, 25, 23, 0.12);
+  color-scheme: light;
+
+  /* House style: one clean sans, headings confident but not heavy — an h1
+     at most 76px and an h2 at most 52px at 1440px. */
+  --font-display: "Inter";
+  --font-body: "Inter";
+  --weight-display: 500;
+  --tracking-display: -0.02em;
+  --size-h1: clamp(2.5rem, 5.4vw, 4.75rem);
+  --size-h2: clamp(2rem, 3.6vw, 3.25rem);
+
+  --radius: 12px;
+  --radius-sm: 6px;
+  --radius-pill: 999px;
+
+  /* Spacing, shadow and motion: one scale each, so a story can always name a
+     value. A category the design does not use stays defined and unused. */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --shadow-sm: 0 1px 2px rgba(27, 25, 23, 0.06);
+  --shadow-md: 0 8px 24px -12px rgba(27, 25, 23, 0.25);
+  --duration-fast: 120ms;
+  --duration-base: 220ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --page: 1160px;
+  --gutter: clamp(20px, 5.5vw, 72px);
+  --header-h: 64px;
+  /* What a page keeps clear at its foot below 1024px while ContactDock
+     floats there: the 56px buttons, their 16px offset and a margin. */
+  --dock-space: calc(88px + env(safe-area-inset-bottom, 0px));
+  /* The tile behind a product picture (ProductImage). Light in both modes:
+     the tools cut products out of a white studio backdrop, and a white or
+     silver product cut out onto a dark ground loses its shading. */
+  --product-ground: #F2F2F4;
+}
+
+/* Dark. Light above is the default; the visitor's system setting picks dark
+   unless they chose light with the header's switch (ThemeToggle), which sets
+   data-theme on <html> and remembers it. Set both palettes for the design. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #111110;
+    --surface: #1A1A19;
+    --ink: #F2F0EC;
+    --ink-soft: #A19C95;
+    --accent: #E8664E;
+    --accent-ink: #111110;
+    --line: rgba(242, 240, 236, 0.14);
+    --product-ground: #E4E4E7;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #111110;
+  --surface: #1A1A19;
+  --ink: #F2F0EC;
+  --ink-soft: #A19C95;
+  --accent: #E8664E;
+  --accent-ink: #111110;
+  --line: rgba(242, 240, 236, 0.14);
+  --product-ground: #E4E4E7;
+  color-scheme: dark;
+}
