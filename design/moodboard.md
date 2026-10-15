@@ -18,6 +18,6 @@
 
 **Grid** — asymmetric two-column hero (headline + CTA left, course photo bleeding right), then a left-aligned content grid throughout; the tee-time list is a right-aligned numeric table (time, holes toggle implied by price pair, price) so prices and times line up like a scoreboard — golf's own visual language.
 
-**Pictures** — real golf course photography (fairway, bunker, green, swing) stands in for the course until the owner supplies their own; large, full-bleed in the hero and section breaks.
+**Pictures** — real golf course photography stands in for the course until the owner supplies their own, borrowed from streamsongresort.com/golf via `save_reference_image` into `public/images/ref/` (tracked in `SOURCES.json`, outlined and counted in the Studio until replaced): large in the hero, at the course section break, and behind the promise band.
 
 **Motion** — a short load fade-rise on the hero text and photo (framer-motion), light stagger on the tee-time rows as they enter view, a gentle hover-lift on cards and the booking summary updating with a soft cross-fade on the total. No pinning, no scroll-jacking, no marquee — matches both the house style and what the 2024/25 awarded sites actually do.
