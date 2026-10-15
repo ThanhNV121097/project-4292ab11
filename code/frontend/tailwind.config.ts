@@ -13,6 +13,8 @@ export default {
         "ink-soft": "var(--ink-soft)",
         accent: "var(--accent)",
         "accent-ink": "var(--accent-ink)",
+        fairway: "var(--fairway)",
+        "fairway-ink": "var(--fairway-ink)",
         line: "var(--line)",
       },
       fontFamily: {
