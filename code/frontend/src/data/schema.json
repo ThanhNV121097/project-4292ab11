@@ -1,3 +1,13 @@
 {
-  "collections": {}
+  "collections": {
+    "tee-times": {
+      "label": "Tee times",
+      "fields": [
+        { "key": "time", "label": "Time", "type": "text" },
+        { "key": "weekdayFee", "label": "Weekday green fee (per player, 18 holes)", "type": "price", "currency": "VND" },
+        { "key": "weekendFee", "label": "Weekend green fee (per player, 18 holes)", "type": "price", "currency": "VND" },
+        { "key": "available", "label": "Open for booking", "type": "bool" }
+      ]
+    }
+  }
 }
