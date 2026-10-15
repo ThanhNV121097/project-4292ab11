@@ -66,7 +66,7 @@ export default function TeeTimeDetail() {
                 className="rounded border border-line bg-ground px-4 py-3 text-ink" />
             </Field>
 
-            <Field label="teeTime.timeLabel" icon="clock">
+            <Field label="teeTime.timeLabel" icon="hours">
               <p className="rounded border border-line bg-surface px-4 py-3 text-ink">{item.time}</p>
             </Field>
 
