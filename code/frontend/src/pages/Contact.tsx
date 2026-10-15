@@ -2,6 +2,7 @@ import { T } from "../editable";
 import { usePageMeta } from "../seo";
 import Section from "../components/Section";
 import Icon from "../components/Icon";
+import SocialIcon from "../components/SocialIcon";
 import ContactForm from "../components/ContactForm";
 import MapEmbed from "../components/MapEmbed";
 
