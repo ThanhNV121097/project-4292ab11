@@ -89,11 +89,11 @@ export default function App() {
           </div>
           <T k="footer.line" as="p" className="max-w-[32ch]" />
           <div className="flex flex-col flex-wrap gap-3 sm:flex-row sm:gap-5">
-            <a href="tel:02838991188" className="flex items-center gap-2 hover:text-ink"><Icon name="phone" size={16} /> 028 3899 1188</a>
-            <a href="https://zalo.me/02838991188" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-ink"><SocialIcon network="zalo" size={16} /> 028 3899 1188</a>
-            <a href="mailto:teetime@greenlotusgolf.vn" className="flex items-center gap-2 hover:text-ink"><Icon name="mail" size={16} /> teetime@greenlotusgolf.vn</a>
-            <span className="flex items-center gap-2"><Icon name="address" size={16} /> Km 12, Highway 51, Long Thành, Đồng Nai</span>
-            <span className="flex items-center gap-2"><Icon name="hours" size={16} /> 5:30–18:00 daily</span>
+            <a href="tel:02838991188" className="flex items-center gap-2 hover:text-ink"><Icon name="phone" size={16} /><T k="contact.phone" /></a>
+            <a href="https://zalo.me/02838991188" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-ink"><SocialIcon network="zalo" size={16} /><T k="contact.zalo" /></a>
+            <a href="mailto:teetime@greenlotusgolf.vn" className="flex items-center gap-2 hover:text-ink"><Icon name="mail" size={16} /><T k="contact.email" /></a>
+            <span className="flex items-center gap-2"><Icon name="address" size={16} /><T k="contact.address" /></span>
+            <span className="flex items-center gap-2"><Icon name="hours" size={16} /><T k="contact.hours" /></span>
           </div>
         </div>
       </footer>
