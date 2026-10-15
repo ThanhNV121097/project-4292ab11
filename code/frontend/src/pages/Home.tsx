@@ -61,7 +61,7 @@ export default function Home() {
             <img src="/images/course-fairway.jpg" alt="Sunlit fairway with a bunker" className="h-full w-full object-cover" />
           </div>
           <div className="order-1 lg:order-2">
-            <T k="home.course.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-fairway" />
+            <T k="home.course.eyebrow" as="p" className="text-sm font-medium uppercase tracking-[0.08em] text-label" />
             <T k="home.course.headline" as="h2" className="mt-3 text-[length:var(--size-h2)] leading-[1.05] max-w-[18ch]" />
             <T k="home.course.body" as="p" className="mt-5 max-w-[46ch] text-base text-ink-soft" />
             <div className="mt-6 flex items-center gap-2 text-sm text-ink-soft">
